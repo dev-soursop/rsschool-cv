@@ -6,7 +6,7 @@
 ## About myself
 - I decided to change my professional activity and move into the field of IT, which is one of the most dynamic and innovative area today. I am ready to learn and acquire new knowledge and skills that will allow me to successfully adapt to the requirements and standards of the IT industry
 ## Skills and Proficiency
-- Udemy course HTML, CSS
+- Udemy course HTML, CSS, Rolling Scopes School lectures
 ## Code example
 ```Javascript
 function sortDescending(number){
