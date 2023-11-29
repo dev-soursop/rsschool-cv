@@ -90,7 +90,7 @@ main {
 }
 
 .container-img__top::before {
-    content: url("/img/dots.svg");
+    content: url("./../img/dots.svg");
     position: absolute;
     width: 400px;
     transform: translateX(200%) translateY(-70%);
