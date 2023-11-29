@@ -23,7 +23,7 @@
                     <div class="text">Literature teacher, Berdyansk State Pedagogical University</div>
                 </div>
                 <div class="card card__high card-img__right">
-                    <img src="img/photo_2023-07-02_21-39-31.jpg" alt="Profile photo" height="200px" width="200px"
+                    <img src="img/photo_2023-07-02_21-39-31.jpg" alt="Profile photo" height="200" width="200"
                         class="card-photo">
                     <h2 class="card__title">ABOUT ME</h2>
                     <p class="text">I decided to change my professional activity and move into the field of IT, which is
@@ -40,29 +40,52 @@
                     <ul class="text">
                         <li><a href="mailto:dev.soursop@gmail.com">dev.soursop@gmail.com</a></li>
                         <li><a href="https://github.com/dev-soursop">github.com/dev-soursop</a></li>
+                        <li><a href="https://dev-soursop.github.io/rsschool-cv/">dev-soursop.github.io/rsschool-cv</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="card">
                     <h2 class="card__title">Experience</h2>
                     <ul class="text">
-                        <li>Kindergarten teacher</li>
-                        <li>Udemy courses HTML, CSS</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>VS Code</li>
                     </ul>
                 </div>
                 <div class="card">
                     <h2 class="card__title">Skills</h2>
-                    <div class="text">English: Intermediate</div>
+                    <ul class="text">
+                        <li>HTML, CSS, SVG</li>
+                    </ul>
                 </div>
             </div>
-            <div class="card">
+            <div class="row">
+                <div class="card">
+                    <h2 class="card__title">Project</h2>
+                    <ul class="text">
+                        <li><a href="https://dev-soursop.github.io/rsschool-cv/">Resume project</a></li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h2 class="card__title">English</h2>
+                    <ul class="text">
+                        <li>Intermediate</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card card-img__right-sm">
                 <h2 class="card__title">Code example</h2>
-                <p class="text">
-                    function sortDescending(number){
-                    <br>let arrayNumbers = number.toString().split("");
-                    <br>arrayNumbers.sort(function(a, b) { return b - a; });
-                    <br>return Number(arrayNumbers.join("").toString());
-                    }
-                </p>
+                <pre>
+                    <code class="text">
+                        function sortDescending(number){
+                            let arrayNumbers = number.toString().split("");
+                            arrayNumbers.sort (function(a, b) { 
+                                return b - a; 
+                            });
+                            return Number(arrayNumbers.join("").toString());
+                        }
+                    </code>
+                </pre>
             </div>
             <footer>
                 <div class="card footer-card">
@@ -74,7 +97,7 @@
                     </div>
                     <div class="footer-info">
                         <img src="img/icon-calendar1.svg" alt="Logo Github" class="footer-logo">
-                        <h3 class="card__title">11/27/2023</h3>
+                        <h3 class="card__title">11/2023</h3>
                     </div>
                     <div class="footer-info">
                         <a href="https://app.rs.school/course/student/dashboard?course=js-fe-en-2023q4"
