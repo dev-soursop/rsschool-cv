@@ -125,7 +125,7 @@ main {
 }
 
 .card-img__right::before {
-    content: url("/../img/wave.svg");
+    content: url("./../img/wave.svg");
     position: absolute;
     width: 64%;
     height: 100%;
@@ -134,7 +134,7 @@ main {
 }
 
 .card-img__left::before {
-    content: url("/../img/wave.svg");
+    content: url("./../img/wave.svg");
     position: absolute;
     width: 32%;
     height: 100%;
@@ -144,7 +144,7 @@ main {
 }
 
 .card-img__right-sm::before {
-    content: url("/../img/wave.svg");
+    content: url("./../img/wave.svg");
     position: absolute;
     width: 32%;
     height: 100%;
